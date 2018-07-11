@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'io.netifi.proteus.chatDemo'
+version '1.0-SNAPSHOT'
+
+ext {
+    proteusVersion = '0.7.18'
+}
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile project(":chat-idl")
+    compile project(":random-string-idl")
+
+    compile "io.netifi.proteus:core:$proteusVersion"
+    compile 'com.google.protobuf:protobuf-java:3.5.0'
+
+    compile 'org.apache.logging.log4j:log4j-api:2.8.2'
+    compile 'org.apache.logging.log4j:log4j-core:2.8.2'
+    compile 'org.apache.logging.log4j:log4j-slf4j-impl:2.8.2'
+}
+
+mainClassName = 'io.netifi.proteus.demo.ChatStringMain'
+
+applicationDefaultJvmArgs = [
+        '-XX:+UnlockExperimentalVMOptions',
+        '-XX:+UseCGroupMemoryLimitForHeap',
+        '-XX:MaxRAMFraction=1',
+        '-XX:+UseG1GC',
+        '-XX:MaxGCPauseMillis=200',
+        '-XX:+AlwaysPreTouch',
+        '-XX:+UseStringDeduplication',
+        '-XX:+ExplicitGCInvokesConcurrent',
+        '-XX:+ParallelRefProcEnabled',
+        '-XX:HeapDumpPath=/',
+        '-XX:+PrintGCDateStamps',
+        '-verbose:gc',
+        '-XX:+PrintGCDetails',
+        '-Xloggc:gc.log',
+        '-XX:+UseGCLogFileRotation',
+        '-XX:NumberOfGCLogFiles=10',
+        '-XX:GCLogFileSize=100M',
+        '-DLog4jContextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector'
+]

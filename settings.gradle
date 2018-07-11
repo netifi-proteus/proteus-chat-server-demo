@@ -1,2 +1,5 @@
 rootProject.name = 'proteus-chat-server-demo'
+include 'random-string-idl'
+include 'chat-idl'
+include 'random-string-chat-service'
 

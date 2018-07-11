@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true" LANGUAGE_LEVEL="JDK_1_8">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/proto" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/generated/main/java" isTestSource="false" generated="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/generated/main/proteus" isTestSource="false" generated="true"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netifi.proteus/core/0.7.18/8cd197183de09e473f82601d3dd2255d600d6c6b/core-0.7.18.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netifi.proteus/core/0.7.18/8f4fd162a987502b653e554a4ea22269636f7548/core-0.7.18-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.6.0/5333f7e422744d76840c08a106e28e519fbe3acd/protobuf-java-3.6.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.6.0/6013b3453e0c102a8bd330d37f8e6918ce431882/protobuf-java-3.6.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netifi.proteus/frames/0.7.18/424c93e79ad6a137959ceb6aef78176536e5087a/frames-0.7.18.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netifi.proteus/frames/0.7.18/d322bb2d66ba1c9847758dd13835681c7b58304d/frames-0.7.18-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-transport-netty/0.11.3/b363714689c276644ad4e6fb32456fc58f320c10/rsocket-transport-netty-0.11.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-transport-netty/0.11.3/dd633cb865e87a0a552d30df767ff34a14e621a6/rsocket-transport-netty-0.11.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-core/0.11.3/31240e85eacde0000f800c9d5335a7d9c953355c/rsocket-core-0.11.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.rsocket/rsocket-core/0.11.3/36f640cb5bab818f1e32544a4c102bd58c6fb9be/rsocket-core-0.11.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.0.3/8234fa7ea2b2d6f7147209dcaaa7cd347951d5eb/micrometer-core-1.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.0.3/7f450c074e9bcee0f4373bf7deb6a75b0ca0b421/micrometer-core-1.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.projectreactor.ipc/reactor-netty/0.7.7.RELEASE/71eb85481a7d5d33376269cc39e1c9acf0c86a75/reactor-netty-0.7.7.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.projectreactor.ipc/reactor-netty/0.7.7.RELEASE/de7b6d471e4f89fd5e5c0a11ad7b6d14641f189b/reactor-netty-0.7.7.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.24.Final/bad56e7da211c5ebe031ae155cb648b1065c7bb6/netty-handler-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.24.Final/843c8f8e5030d315617dc68051b2aafe7bf190c6/netty-handler-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.24.Final/6c2569df1688ea1c6596cef9df8d1a47f8066e4a/netty-transport-native-epoll-4.1.24.Final-linux-x86_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.24.Final/4dcf99c74e5d7587813cb4e6065c7a343318b6c/netty-transport-native-epoll-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.24.Final/8e2c0ce9f76dd86dd464bb1dc53763329834f7fb/netty-handler-proxy-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.24.Final/eca5acc26ca7b74ff8a56728f89bff8e24b92fe1/netty-handler-proxy-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.24.Final/8f20009953b2c7c3d860cef928007bc01aa58ac/netty-codec-http-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.24.Final/a5e7e5d9ed023cb41962e2beb97bb60112d50abf/netty-codec-http-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.24.Final/17347db44af0ec1f8c69602c14f7d1d105630548/netty-codec-socks-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.24.Final/2b930d6c881bedc911506c404eadacf8a6393c6c/netty-codec-socks-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.24.Final/290857e5103956bbda11836e33245f2439226b77/netty-codec-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.24.Final/17fe0364f05a2c0fff6dcb173b635b4fba097c79/netty-codec-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.24.Final/16a46eaa33853af1fdec5682fcebc3ca5f5d196b/netty-transport-native-unix-common-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.24.Final/97ea9bad6faaf6ac3417d73de02e9524871d7c98/netty-transport-native-unix-common-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.24.Final/d37292c94d3a4cba48d9b6cfb6e8e55282035d0d/netty-transport-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.24.Final/659e3db972506c66e352b6070c99d45d45b20243/netty-transport-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.24.Final/e354bed2e60b568307138e403f55ba241c1c16d2/netty-buffer-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.24.Final/ced36ea8494a1f5d99e0aba9442cf739c97b694f/netty-buffer-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.projectreactor.addons/reactor-extra/3.1.6.RELEASE/24d409d5cd393e48a1c0eccfd11003d6cc23a9ce/reactor-extra-3.1.6.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.projectreactor.addons/reactor-extra/3.1.6.RELEASE/a438803cf8a76d5651f8115cc4a868e4c6a690f/reactor-extra-3.1.6.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.7.RELEASE/7e0bde8c9f08ad91ed314c6cb48e7bed6234dc71/reactor-core-3.1.7.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.1.7.RELEASE/d79e0f88cf833de64f66ee03c588e4a0d54dfb07/reactor-core-3.1.7.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/9e1ac84eed220281841b75e72fb9de5a297fbf04/HdrHistogram-2.1.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.10/411ca1d8f3f3037e19dcf5350807b0b74350ca33/HdrHistogram-2.1.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/fbc38259e2077a428984637d811dac542a6a913e/LatencyUtils-2.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.24.Final/dbc1e5b50d31aed883ea3beeb6489e1977d0687f/netty-resolver-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.24.Final/b10dfa5947f05e2a1ee3060ba7a7b3a2e5f67887/netty-resolver-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.24.Final/7eeecd7906543214c3c1c984d275d3c6de10b99d/netty-common-4.1.24.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.24.Final/128c0aa2ce4b26b3a619532cb726c605d9da7047/netty-common-4.1.24.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/kylebahr/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/fb592a3d57b11e71eb7a6211dd12ba824c5dd037/reactive-streams-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>
