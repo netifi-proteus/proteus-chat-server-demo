@@ -17,7 +17,7 @@ dependencies {
     compile project(":chat-idl")
     compile project(":random-string-idl")
 
-    compile "io.netifi.proteus:client:0.7.18"
+    compile "io.netifi.proteus:client:0.7.19"
     compile 'com.google.protobuf:protobuf-java:3.5.0'
     compile 'io.micrometer:micrometer-registry-atlas:1.0.3'
 

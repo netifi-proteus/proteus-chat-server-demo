@@ -11,8 +11,8 @@ repositories {
 }
 
 dependencies {
-    compile "io.netifi.proteus:core:0.7.18"
-    compile "io.netifi.proteus:protobuf-rpc:0.7.18"
+    compile "io.netifi.proteus:core:0.7.19"
+    compile "io.netifi.proteus:protobuf-rpc:0.7.19"
     compile 'com.google.protobuf:protobuf-java:3.5.0'
 }
 
@@ -35,7 +35,7 @@ protobuf {
 
     plugins {
         proteus {
-            artifact = "io.netifi.proteus:protobuf-rpc:0.7.18"
+            artifact = "io.netifi.proteus:protobuf-rpc:0.7.19"
         }
         generateProtoTasks {
             ofSourceSet('main')*.plugins {

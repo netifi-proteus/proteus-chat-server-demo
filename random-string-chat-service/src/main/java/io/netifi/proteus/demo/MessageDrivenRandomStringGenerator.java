@@ -31,9 +31,12 @@ public class MessageDrivenRandomStringGenerator implements RandomStringGenerator
         int min = message.getMin();
         int max = message.getMax();
 
+        System.out.println("Received request for string");
+
         return Flux.<Integer>generate(
                 sink -> {
                     int size = ThreadLocalRandom.current().nextInt(min, max);
+                    System.out.println("Providing string of size " + size);
                     sink.next(size);
                 })
                 .map(
@@ -42,12 +45,15 @@ public class MessageDrivenRandomStringGenerator implements RandomStringGenerator
                         String str = new String(new char[i]).replace("\0", " ");;
                         try {
                             str = _buffer.take();
+                            System.out.println("Pulled " + str + " from queue");
                             while(str.length() < i){
+                                System.out.println(str + " not long enough (" + i + ")");
                                 str = new String(new char[2 * str.length()]).replace("\0", str);
                             }
                             str = str.substring(0, i);
                         } catch (InterruptedException ex){
                             //Swallow, just move on?
+                            System.out.println("Interrupted");
                         }
                         System.out.println("Providing string:" + str);
                         return str;

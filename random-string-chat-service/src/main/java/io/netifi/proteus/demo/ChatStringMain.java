@@ -62,7 +62,9 @@ public class ChatStringMain {
                         .meterRegistry(registry)
                         .host(host) // Proteus Router Host
                         .port(port) // Proteus Router Port
+                        .poolSize(1)
                         .build();
+        System.out.println("Registered to serve strings under destination:" + randomStringDestination);
 
         Proteus chatServerProteus =
                 Proteus.builder()
@@ -73,7 +75,9 @@ public class ChatStringMain {
                         .meterRegistry(registry)
                         .host(host) // Proteus Router Host
                         .port(port) // Proteus Router Port
+                        .poolSize(1)
                         .build();
+        System.out.println("Registered to serve chat message under destination:" + chatDestination);
 
         MessageDrivenRandomStringGenerator comboGenerator =
                 new MessageDrivenRandomStringGenerator();
