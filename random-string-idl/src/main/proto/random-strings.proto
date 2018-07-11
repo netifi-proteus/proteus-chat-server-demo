@@ -8,7 +8,6 @@ option java_multiple_files = true;
 
 service RandomStringGenerator {
 
-    // Returns a Hello World Message
     rpc GenerateString (RandomStringRequest) returns (stream RandomStringResponse) {}
 }
 

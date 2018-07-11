@@ -5,19 +5,14 @@ plugins {
 
 sourceCompatibility = 1.8
 
-group 'io.netifi.proteus.chatDemo'
-version '1.0-SNAPSHOT'
-
-ext {
-    proteusVersion = '0.7.18'
-}
 repositories {
     mavenLocal()
     jcenter()
 }
 
 dependencies {
-    compile "io.netifi.proteus:core:$proteusVersion"
+    compile "io.netifi.proteus:core:0.7.18"
+    compile "io.netifi.proteus:protobuf-rpc:0.7.18"
     compile 'com.google.protobuf:protobuf-java:3.5.0'
 }
 
@@ -34,18 +29,30 @@ sourceSets {
 protobuf {
     generatedFilesBaseDir = "${projectDir}/src/generated"
 
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.5.0'
+    }
+
     plugins {
-        protoc {
-            artifact = 'com.google.protobuf:protoc:3.5.0'
-        }
         proteus {
-            artifact = "io.netifi.proteus:protobuf-rpc:$proteusVersion"
+            artifact = "io.netifi.proteus:protobuf-rpc:0.7.18"
         }
         generateProtoTasks {
             ofSourceSet('main')*.plugins {
                 proteus {}
             }
         }
+    }
+}
+
+idea {
+    module {
+        sourceDirs += file("src/main/proto")
+        sourceDirs += file("src/generated/main/java")
+        sourceDirs += file("src/generated/main/proteus")
+
+        generatedSourceDirs += file('src/generated/main/java')
+        generatedSourceDirs += file('src/generated/main/proteus')
     }
 }
 

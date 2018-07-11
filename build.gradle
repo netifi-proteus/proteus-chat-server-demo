@@ -4,9 +4,6 @@ subprojects {
     group 'io.netifi.proteus.chatDemo'
     version '1.0-SNAPSHOT'
 
-    ext {
-        proteusVersion = '0.7.18'
-    }
     repositories {
         mavenLocal()
         jcenter()

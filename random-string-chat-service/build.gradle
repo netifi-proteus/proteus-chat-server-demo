@@ -6,9 +6,6 @@ plugins {
 group 'io.netifi.proteus.chatDemo'
 version '1.0-SNAPSHOT'
 
-ext {
-    proteusVersion = '0.7.18'
-}
 repositories {
     mavenLocal()
     jcenter()
@@ -20,8 +17,9 @@ dependencies {
     compile project(":chat-idl")
     compile project(":random-string-idl")
 
-    compile "io.netifi.proteus:core:$proteusVersion"
+    compile "io.netifi.proteus:client:0.7.18"
     compile 'com.google.protobuf:protobuf-java:3.5.0'
+    compile 'io.micrometer:micrometer-registry-atlas:1.0.3'
 
     compile 'org.apache.logging.log4j:log4j-api:2.8.2'
     compile 'org.apache.logging.log4j:log4j-core:2.8.2'
