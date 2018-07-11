@@ -1,0 +1,60 @@
+plugins {
+    id 'com.google.protobuf' version '0.8.3'
+    id 'java'
+}
+
+sourceCompatibility = 1.8
+
+group 'io.netifi.proteus.chatDemo'
+version '1.0-SNAPSHOT'
+
+ext {
+    proteusVersion = '0.7.18'
+}
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+dependencies {
+    compile "io.netifi.proteus:core:$proteusVersion"
+    compile 'com.google.protobuf:protobuf-java:3.5.0'
+
+    
+
+    compile 'org.apache.logging.log4j:log4j-api:2.8.2'
+    compile 'org.apache.logging.log4j:log4j-core:2.8.2'
+    compile 'org.apache.logging.log4j:log4j-slf4j-impl:2.8.2'
+}
+
+sourceSets {
+    main {
+        proto { srcDir 'src/main/proto' }
+    }
+
+    test {
+        proto { srcDir 'src/test/proto' }
+    }
+}
+
+protobuf {
+    generatedFilesBaseDir = "${projectDir}/src/generated"
+
+    plugins {
+        protoc {
+            artifact = 'com.google.protobuf:protoc:3.5.0'
+        }
+        proteus {
+            artifact = "io.netifi.proteus:protobuf-rpc:$proteusVersion"
+        }
+        generateProtoTasks {
+            ofSourceSet('main')*.plugins {
+                proteus {}
+            }
+        }
+    }
+}
+
+clean {
+    delete 'src/generated'
+}
